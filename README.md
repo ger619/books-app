@@ -1,6 +1,6 @@
 # books-app
 
-## Live Demon
+## Live Demo
 
 > [https://maganaasiati.github.io/capstone_first_module-/](https://maganaasiati.github.io/capstone_first_module-/)
 ## Description
@@ -24,6 +24,7 @@
 - Use objects to store and access data.
 - Communicate technical concepts to other technical people.
 - Build awesome book .
+
 - ## Built With
 
 - HTML
