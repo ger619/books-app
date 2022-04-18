@@ -2,7 +2,7 @@
 
 ## Live Demo
 
-> [https://maganaasiati.github.io/capstone_first_module-/](https://maganaasiati.github.io/capstone_first_module-/)
+> [Live Demo]()
 ## Description
 
 > In this project, we build a basic website that allows users to add/remove books from a list. we achieve that by using JavaScript objects and arrays. You will also need to dynamically modify the DOM and add basic events.
