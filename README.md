@@ -2,7 +2,7 @@
 
 ## Live Demo
 
-> [Live Demo]()
+> [Live Demo](https://ger619.github.io/books-app/)
 ## Description
 
 > In this project, we build a basic website that allows users to add/remove books from a list. we achieve that by using JavaScript objects and arrays. You will also need to dynamically modify the DOM and add basic events.
