@@ -3,36 +3,34 @@ body {
 }
 
 .heading {
-    text-align: center;
+    
     font-size: 40px;
     font-family: 'Lato', sans-serif;
 }
 
-.form {
-    text-align: center;
-}
-
-#title {
-    font-size: 40px;
+.title {
+    font-size: 100%;
     font-family: 'Lato', sans-serif;
     margin-bottom: 3%;
     border: 3px solid #363535;
     border-radius: 4px;
 }
 
-#author {
-    font-size: 40px;
-    font-family: 'Lato', sans-serif;
-    margin-bottom: 3%;
-    border: 3px solid #363535;
-    border-radius: 4px;
-}
 
-.add {
-    font-size: 40px;
+
+.btn {
+   
     font-family: 'Lato', sans-serif;
     margin-bottom: 3%;
     border: 3px solid #363535;
     border-radius: 4px;
-    width: 37%;
+    
+}
+.book-container button{
+   
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 3%;
+    border: 3px solid #363535;
+    border-radius: 4px;
+    
 }
