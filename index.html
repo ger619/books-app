@@ -11,11 +11,25 @@
 
 <body>
     <h1 class="heading ">Awesome Books</h1>
-    <div class="book-container "></div>
-    <form class="form ">
+    <table>
+        <thead>
+            <tr>
+                <th class=""></th>
+                <th>Title</th>
+                <th>Author</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody id="book-list">
+        </tbody>
+    </table>
+    <div class="book-container">
+
+    </div>
+    <form id="book-form">
         <input id="title" class="title" type="text" placeholder="title" required> <br>
         <input id="author" class="title" type="text" placeholder="author" required> <br>
-        <button type="submit" class="btn">Add</button>
+        <button type="submit" class="submit" value="Add">Add</button>
     </form>
     <script src="./style.js"></script>
 </body>
