@@ -69,21 +69,23 @@ body {
   width: 100%;
 }
 
-
 .submit:hover {
   background-color: blue;
 }
 
 #table_ctn td,
 #table_ctn th {
-  border: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
   padding: 8px;
 }
 
 #table_ctn tr:hover {
   background-color: #ddd;
 }
-#table_ctn tr:nth-child(even){background-color: gray;}
+
+#table_ctn tr:nth-child(odd) {
+  background-color: gray;
+}
 
 #table_ctn th {
   padding-top: 12px;
@@ -101,4 +103,13 @@ body {
 
 h5 {
   text-align: center;
+}
+
+.delete {
+  float: right;
+  border-radius: 4px;
+}
+
+#book-list {
+  border: 3px solid #363535;
 }
