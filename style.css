@@ -5,6 +5,7 @@ body {
 .navbar {
     display: flex;
     border: 3px solid #363535;
+    justify-content: space-between;
 }
 
 .navbar-nav {
@@ -13,10 +14,21 @@ body {
     text-decoration: none;
     padding-right: 16px;
 }
+.navbar-brand{
+    margin-left: 20px;
+}
 
 .headlist {
     text-decoration: none;
-    padding-right: 16px;
+    padding-right: 60px;
+    cursor: pointer;
+    padding-left: 12px;
+    
+}
+
+.right {
+    border-right: 4px solid black;
+    
 }
 
 .heading {
@@ -84,4 +96,7 @@ body {
 
 #contact {
     display: none;
+}
+h5{
+    text-align: center;
 }
