@@ -28,11 +28,11 @@ body {
   margin-bottom: 30%;
   border: 3px solid #363535;
   border-radius: 4px;
-  
 }
-#book-form{
-  text-align:center;
-  margin:5% ;
+
+#book-form {
+  text-align: center;
+  margin: 5%;
 }
 
 #table_ctn {
@@ -40,16 +40,17 @@ body {
   border-collapse: collapse;
   width: 100%;
 }
-.submit:hover{ background-color: blue;}
+.submit:hover { background-color: blue; }
 
-#table_ctn td, #table_ctn th {
+#table_ctn td,
+#table_ctn th {
   border: 1px solid #ddd;
   padding: 8px;
 }
 
-#table_ctn tr:nth-child(even){background-color:gray;}
+#table_ctn tr:nth-child(even) { background-color: gray; }
 
-#table_ctn tr:hover {background-color: #ddd;}
+#table_ctn tr:hover { background-color: #ddd; }
 
 #table_ctn th {
   padding-top: 12px;
@@ -58,4 +59,3 @@ body {
   background-color: blue;
   color: white;
 }
-
