@@ -69,6 +69,7 @@ body {
   width: 100%;
 }
 
+
 .submit:hover {
   background-color: blue;
 }
@@ -82,6 +83,7 @@ body {
 #table_ctn tr:hover {
   background-color: #ddd;
 }
+#table_ctn tr:nth-child(even){background-color: gray;}
 
 #table_ctn th {
   padding-top: 12px;
