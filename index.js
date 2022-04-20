@@ -113,3 +113,6 @@ function constructContactPage() {
 contactButton.addEventListener('click', constructContactPage);
 listAdd.addEventListener('click', constructFormPage);
 liForm.addEventListener('click', constructListPage);
+
+const d = new Date('2015-03-25');
+document.getElementById('demo').innerHTML = d;

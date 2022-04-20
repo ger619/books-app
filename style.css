@@ -113,3 +113,15 @@ h5 {
 #book-list {
   border: 3px solid #363535;
 }
+
+.container-footer {
+  border: 2px solid #363535;
+  margin-top: 24px;
+}
+
+#demo {
+  float: right;
+  font-family: 'Lato', sans-serif;
+  margin-top: 8px;
+  font-size: 12px;
+}
