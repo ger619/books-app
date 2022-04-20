@@ -1,64 +1,87 @@
 body {
-  background-color: #f2f2f2;
+    background-color: #f2f2f2;
 }
-.navbar-nav{
-list-style: none;
-display: inline;
+
+.navbar {
+    display: flex;
+    border: 3px solid #363535;
 }
+
+.navbar-nav {
+    list-style: none;
+    display: flex;
+    text-decoration: none;
+    padding-right: 16px;
+}
+
+.headlist {
+    text-decoration: none;
+    padding-right: 16px;
+}
+
 .heading {
-  font-size: 40px;
-  font-family: 'Lato', sans-serif;
-  text-align: center;
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
 }
 
 .title {
-  font-size: 100%;
-  font-family: 'Lato', sans-serif;
-  margin-bottom: 10px;
-  border: 3px solid #363535;
-  border-radius: 4px;
+    font-size: 100%;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 10px;
+    border: 3px solid #363535;
+    border-radius: 4px;
 }
 
 .btn {
-  font-family: 'Lato', sans-serif;
-  margin-bottom: 3%;
-  border: 3px solid #363535;
-  border-radius: 4px;
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 3%;
+    border: 3px solid #363535;
+    border-radius: 4px;
 }
 
 .book-container button {
-  font-family: 'Lato', sans-serif;
-  margin-bottom: 30%;
-  border: 3px solid #363535;
-  border-radius: 4px;
-  
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 30%;
+    border: 3px solid #363535;
+    border-radius: 4px;
 }
-#book-form{
-  text-align:center;
-  margin:5% ;
+
+#book-form {
+    text-align: center;
+    margin: 5%;
 }
 
 #table_ctn {
-  font-family: Arial, Helvetica, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-}
-.submit:hover{ background-color: blue;}
-
-#table_ctn td, #table_ctn th {
-  border: 1px solid #ddd;
-  padding: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
 }
 
-#table_ctn tr:nth-child(even){background-color:gray;}
+.submit:hover {
+    background-color: blue;
+}
 
-#table_ctn tr:hover {background-color: #ddd;}
+#table_ctn td,
+#table_ctn th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#table_ctn tr:hover {
+    background-color: #ddd;
+}
 
 #table_ctn th {
-  padding-top: 12px;
-  padding-bottom: 12px;
-  text-align: left;
-  background-color: blue;
-  color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
 }
 
+#form {
+    display: none;
+}
+
+#contact {
+    display: none;
+}
