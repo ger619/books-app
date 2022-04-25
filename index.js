@@ -1,7 +1,6 @@
 import { Book, BookStore, showBooks } from './modules/books.js';
 import { DateTime } from './modules/luxon.js';
 
-
 const bookListDiv = document.getElementById('table');
 const formDiv = document.getElementById('form');
 const contactDiv = document.getElementById('contact');
@@ -30,7 +29,6 @@ function constructContactPage() {
 contactButton.addEventListener('click', constructContactPage);
 listAdd.addEventListener('click', constructFormPage);
 liForm.addEventListener('click', constructListPage);
-
 
 const getTime = () => {
   const dt = DateTime.now();
