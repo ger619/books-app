@@ -1,4 +1,7 @@
-import { Book, BookStore, showBooks } from './modules/books.js';
+import Book from './modules/books.js';
+import BookStore from './modules/BookStore.js';
+import showBooks from './modules/showBooks.js';
+
 import { DateTime } from './modules/luxon.js';
 
 const bookListDiv = document.getElementById('table');
@@ -8,23 +11,22 @@ const contactButton = document.getElementById('li-contact');
 const liForm = document.getElementById('li-list');
 const listAdd = document.getElementById('li-add');
 
-function constructListPage() {
+const constructListPage = () => {
   bookListDiv.style.display = 'block';
   formDiv.style.display = 'none';
   contactDiv.style.display = 'none';
-}
-
-function constructFormPage() {
+};
+const constructFormPage = () => {
   bookListDiv.style.display = 'none';
   formDiv.style.display = 'block';
   contactDiv.style.display = 'none';
-}
+};
 
-function constructContactPage() {
+const constructContactPage = () => {
   bookListDiv.style.display = 'none';
   formDiv.style.display = 'none';
   contactDiv.style.display = 'block';
-}
+};
 
 contactButton.addEventListener('click', constructContactPage);
 listAdd.addEventListener('click', constructFormPage);
